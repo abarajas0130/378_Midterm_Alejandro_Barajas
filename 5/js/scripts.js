@@ -10,7 +10,19 @@ var birthday = {
   user: ['4/6', '9/23', '10/1', '1/11', '12/24', '7/7']
 };
 
+if (birthday.check == '4/6', '9/23', '10/1', '1/11', '12/24', '7/7') {
+  alert('Happy Birthday!');
+}
+console.log(birthday.check);
+
 // Get & Store Today's Date
+new Date();
+new Date(value);
+new Date(dateString);
+new Date(year, month[, day[, hour[, minutes[, seconds[, milliseconds]]]]]);
+
+console.log(Date);
+
 // Remember 0 is January, 1 is February, etc.
 var today;
 
